@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "오뚜기몰",
+    "slug": "OttogiMAll",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+	"ios": {
+		"bundleIdentifier": "com.ottogi.ottogimall",
+		"buildNumber": "1.0.1",
+		"supportsTablet": true
+	},
+	"android": {
+		"package": "com.ottogi.ottogimail",
+		"versionCode": 1
+	}
+  }
+}
